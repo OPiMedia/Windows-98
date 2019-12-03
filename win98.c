@@ -27,7 +27,7 @@
              do_nothing_loop();
              totally_screw_up_HPFS_file_system();
 
-             search_and_destroy_the_rest_of_OS/2();
+             search_and_destroy_the_rest_of_OS_2();
              hang_system();
          }
          write_something(anything);
@@ -38,7 +38,7 @@
          {
              display_copyright_message();
              do_nothing_loop();
-             basically_run_windows_3.1();
+             basically_run_windows_3_1();
              do_nothing_loop();
              do_nothing_loop();
          }
@@ -61,7 +61,7 @@
      if (system_ok())
          crash(to_dos_prompt);
      else
-         system_memory = open("a:\swp0001.swp" O_CREATE);
+         system_memory = open("a:\\swp0001.swp", O_CREATE);
 
      while(something)
      {
